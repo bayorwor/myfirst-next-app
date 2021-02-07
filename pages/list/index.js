@@ -12,7 +12,7 @@ export const getStaticProps = async () => {
 const List = ({lists}) => {
     return (
         <div>
-            <h1>ALL LIST ITEMS</h1>
+            <h1>ALL USERS LIST</h1>
             {
                 lists.map((list) => (
                     <Link href={`/list/${list.id}`} key={ list.id}>
